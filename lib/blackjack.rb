@@ -73,8 +73,7 @@ def runner
       total += hit?(total)
     end
   else
-    
+    end_game(total)
   end
-  end_game(total)
 end
     
